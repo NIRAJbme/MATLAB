@@ -1,0 +1,44 @@
+f=zeros(101,101);
+f(1,101)=1;
+f(101, 1)=1;
+f(51 ,51)=1;
+imshow(f);figure
+H=hough(f);
+imshow(H)
+
+% x=imread('cameraman.tif');
+% % i=rgb2gray(x);
+% subplot(2,2,1);imshow(x);title('original');
+% f=edge(x,'canny');
+% subplot(2,2,2);imshow(f);title('edge detected')
+% H=hough(x);
+% subplot(2,2,3)
+% imshow(H);title('hough transform')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9

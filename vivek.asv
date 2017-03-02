@@ -1,0 +1,9 @@
+a=imread('coins.png');
+imshow(a)
+b=a;
+[r,c]=size(a);
+t=input('enter threshold value:-');
+for x=1:1:r
+    for y=1:1:c
+        if a(x,y)<=t
+            

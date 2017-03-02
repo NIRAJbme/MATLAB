@@ -1,0 +1,8 @@
+n=-4:1:4;
+X=2.^n;
+Ex=sum(abs(X).^2);
+stem(n,X,'linewidth',2);
+
+
+
+

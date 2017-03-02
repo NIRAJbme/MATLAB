@@ -1,0 +1,10 @@
+a=imread('cameraman.tif');
+imshow(a)
+y=[-1 -1 -1, 0 0 0, 1 1 1];
+x=[-1 0 -1, -1 0 -1, -1 0 -1]
+b=imfilter(a,y);imshow(b);title('prewitt horizontal');
+c=imfilter(a,x);imshow(c);title('prewitt vertical');
+m=(x+y)
+k=imfilter(a,m);imshow(m);title('sum')
+subplot(2 2 1);imshow(a);title('original');
+subplot(2 2 1);imshow(a);title('original');

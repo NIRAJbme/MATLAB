@@ -1,0 +1,6 @@
+  function[op=sinplot(t1,t2];
+     t=t1:0.1:t2;
+      op=sin(2*pi*t);
+        plot(op);
+             
+            

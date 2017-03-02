@@ -1,0 +1,11 @@
+fr=30;%given frequency
+n=0:0.1:20;%time duration
+fs=50;%sampling frequency
+f=sin(2*pi*fr*1/fs*n);
+subplot(2,1,1);
+plot(t,f);
+p=fft(f);
+h=abs(p);
+subplot(2,1,2);
+stem(h);
+ 
